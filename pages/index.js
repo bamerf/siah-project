@@ -8,7 +8,7 @@ export default () => {
 			<Head>
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=[Tracking ID]"
+					src="https://www.googletagmanager.com/gtag/js?id=UA-176776899-1"
 				/>
 
 				<script
@@ -17,7 +17,7 @@ export default () => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GTM-T9FTQ97');
+            gtag('config', 'UA-176776899-1');
         `,
 					}}
 				/>
