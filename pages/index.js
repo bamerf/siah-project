@@ -6,6 +6,21 @@ export default () => {
 	return (
 		<div className="main">
 			<Head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=[Tracking ID]"
+				/>
+
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-T9FTQ97');
+        `,
+					}}
+				/>
 				<title>Siah Project</title>
 				<link
 					href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
